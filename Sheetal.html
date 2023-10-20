@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Morte</title>
+    <style>
+        /* Basic styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: #f06292;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #f06292;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        label {
+            color: #f06292;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Morte</h2>
+    <p>Discover and enjoy your favorite lofi tunes based on your mood!</p>
+    <p>Explore some mood ideas:</p>
+    <ul>
+        <li>Chill</li>
+        <li>Reflective</li>
+        <li>Upbeat</li>
+    </ul>
+    <button>Get Random Recommendation</button>
+    <br>
+    <img src="https://www.planetnatural.com/wp-content/uploads/2023/08/Spider-lily.jpg" alt="Red spider lily">
+    <br>
+    <br>
+    <label for="userThoughts">Share your thoughts:</label>
+    <input type="text" id="userThoughts" placeholder="Add your thoughts here...">
+</body>
+</html>
